@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="3" verbose="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="week5.day1.EditLead">
+        <methods>
+          <include name="closeWebBrowser"/>
+          <include name="loginLeafTaps"/>
+          <include name="runEditLead"/>
+          <include name="runBeforeTest"/>
+        </methods>
+      </class> <!-- week5.day1.EditLead -->
+      <class name="week5.day1.MultipleWindowSwitch">
+        <methods>
+          <include name="closeWebBrowser"/>
+          <include name="loginLeafTaps"/>
+          <include name="runMergeLead"/>
+        </methods>
+      </class> <!-- week5.day1.MultipleWindowSwitch -->
+      <class name="week5.day1.CreateLead">
+        <methods>
+          <include name="closeWebBrowser"/>
+          <include name="loginLeafTaps"/>
+          <include name="runBeforeTest"/>
+          <include name="runCreateLead"/>
+        </methods>
+      </class> <!-- week5.day1.CreateLead -->
+      <class name="week5.day1.ZoomCar">
+        <methods>
+          <include name="runZoomCar"/>
+        </methods>
+      </class> <!-- week5.day1.ZoomCar -->
+      <class name="week5.day1.Facebook">
+        <methods>
+          <include name="runFacebook"/>
+        </methods>
+      </class> <!-- week5.day1.Facebook -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" verbose ="5" name="Test">
+    <classes>
+      <class name="week5.day1.CreateLead"/>
+      <class name="week5.day1.EditLead"/>
+      <class name="week5.day1.ZoomCar"/>
+      <class name="week5.day1.Facebook"/>
+      <class name="week5.day1.MultipleWindowSwitch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
